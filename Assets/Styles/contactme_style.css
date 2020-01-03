@@ -1,0 +1,196 @@
+body
+{
+	margin: 0;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	
+	background-color:#d6e5fa;
+
+}
+
+
+
+
+.Rightblock
+{
+	background-color: #10316b;
+	height: 500px;
+	width:  400px;
+	display: inline-block;
+	position: relative;
+	bottom: 1750px;
+	left:350px;
+	right: 125px;
+	border-radius: 15px;
+}
+
+.heading_right
+{
+	color:white;
+	font-family: 'Fira Sans', sans-serif;
+	margin: 40px 100px 550px 25px;
+	text-align: left;
+	font-weight: normal;
+}
+
+.subheading
+{
+	font-family: 'Nanum Gothic', sans-serif;
+	color:white;
+}
+
+.location
+{
+	
+	float:left;	
+	position: relative;
+	top: 25px;
+	
+
+ 
+}
+
+.Mail
+{
+
+	float:left;	
+}
+
+.Telephone
+{
+	
+	float:left;	
+}
+
+.flex-container {
+  display: flex;
+  height: 50px;
+  align-items: flex-end;
+  background-color: DodgerBlue;
+}
+
+.location-text
+{
+
+  width: 300px;
+ 
+  
+  margin: 30px;
+}
+
+.email-text
+{
+
+  width: 300px;
+ 
+  
+  margin: 30px;
+}
+
+.telephone-text
+{
+
+  width: 300px;
+ 
+  
+  margin: 30px;
+}
+
+.bottom-container
+{
+	position: relative;
+	left:125px;
+	top: 30px;
+	
+}
+img
+{
+border-radius: 25%;	
+
+}
+
+.facebook
+{
+	display: inline-block;
+	position: relative;
+	right: 10px;
+}
+
+.linkedin
+{
+	display: inline-block;
+}
+
+.iaeste
+{
+	display: inline-block;
+	position: relative;
+	left: 10px;
+
+}
+
+
+
+
+.Leftblock
+{
+	background-color: #f4f4f4;
+	height: 500px;
+	width:  600px;
+	display: inline-block;
+	position: relative;
+	top: 100px;
+	right: 125px;
+	border-radius: 15px;
+
+}
+.heading_left
+{
+	color:#10316b;
+	font-family: 'Fira Sans', sans-serif;
+	margin: 40px 100px 800px 25px;
+	text-align: left;
+	font-weight: normal;
+}
+
+.subheading_left
+{
+	font-family: 'Nanum Gothic', sans-serif;
+	color:#10316b;
+	margin: 30px 100px 800px 5px;
+}
+
+.BUTTON_VTY  {
+	background-color:#10316b;
+	border-radius:15px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.BUTTON_VTY :hover {
+	background-color:#408c99;
+}
+.BUTTON_VTY :active {
+	position:relative;
+	top:1px;
+}
+.BUTTON_VTY 
+{
+	position: relative;
+	bottom: 750px;
+	right:550px;
+	left: 150px;
+}
+
+
+
+
+
+
+

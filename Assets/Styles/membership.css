@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('avenir/AvenirLTStd-Heavy.woff') ;
+}
+
+@font-face {
+    font-family: 'Avenir-Light';
+    src: url('avenir/AvenirLTStd-Light.woff') ;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    outline: 0px;
+    vertical-align: baseline;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    z-index: 9999;
+    height: 8%;
+    box-shadow: 0px 1px 3px #1e1f1fd8;
+}
+
+#nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 980px;
+    margin: auto;
+}
+nav img {
+    padding: 8px 0px;
+    height: 35px;
+}
+nav .nav-text {
+    padding: 15px 0px;
+    color: #013336d8;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Avenir';
+}
+
+#intro {
+    width: 100%;
+    height: 80vh;
+    background: url('../images/paper-map.jpg');
+    background-size: 100%;
+}
+
+#intro h1 {
+    color: #000000;
+    font-family: 'Avenir';
+    text-align: center;
+    font-size: 40px;
+    margin: 0vh;
+    padding-top: 15vh;
+    box-shadow: #ffffff;
+}
+
+#stats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 10vh;
+}
+
+#stats div {
+    background: #640808ad;
+    text-align: center;
+    color:#ffffffb4;
+    font-family: 'Avenir';
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 10px #000000;
+}
+
+#content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: #ddd6f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #8a8585,  #640808be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#content div {
+    width: 40vw;
+    font-family: 'Avenir';
+    color: #000000;
+    padding: 5vh;
+}
